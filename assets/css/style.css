@@ -469,7 +469,7 @@ section {
   text-align: center;
   font-weight: 700;
   position: relative;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 .section-header h3::before {
   content: "";
@@ -705,10 +705,26 @@ i.circle {
 
 
 
+
+/* Img */
+
+.box-img img{
+  border-radius: 10px;
+  width:  300px;
+  height: 200px;
+  object-fit: cover;
+}
+/* End of img */
+
 /* Team Section
 --------------------------------*/
 .box-img{
   padding: 0 25px;
+}
+:focus-visible {
+    outline-color: transparent;
+    outline-style: auto;
+    outline-width: 1px;
 }
 #team {
   background: #fff;
